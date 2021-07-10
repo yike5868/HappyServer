@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lee</groupId>
-    <artifactId>ssm</artifactId>
+    <groupId>com.zl.happy</groupId>
+    <artifactId>happyServer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -51,12 +51,14 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
+<!-- 日志简化 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
            <artifactId>lombok</artifactId>
           <version>1.16.16</version><!--版本号自己选一个就行-->
         </dependency>
+
+
 
     </dependencies>
 </project>

@@ -9,7 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
-//日志相关
+//rizhi
 @Slf4j
 @Controller
 @RequestMapping(value = "person")
@@ -23,6 +23,6 @@ public class PersonController {
 		List<Person> persons = personService.queryList();
 		model.addAttribute("persons", persons);
 		log.info(persons.toString());
-		return "index";
+		return "public/404";
 	}
 }

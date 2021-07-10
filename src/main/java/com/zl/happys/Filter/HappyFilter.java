@@ -14,7 +14,7 @@ public class HappyFilter implements Filter {
         HttpServletRequest hrequest = (HttpServletRequest)servletRequest;
         HttpServletResponseWrapper wrapper = new HttpServletResponseWrapper((HttpServletResponse) servletResponse);
         if(hrequest.getRequestURI().indexOf("/index") != -1 ||
-                hrequest.getRequestURI().indexOf("/asd") != -1 ||
+                hrequest.getRequestURI().indexOf("/happys") != -1 ||
                 hrequest.getRequestURI().indexOf("/online") != -1 ||
                 hrequest.getRequestURI().indexOf("/login") != -1
         ) {
