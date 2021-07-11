@@ -1,6 +1,6 @@
 package com.zl.happys.controller;
 
-import com.zl.happys.entity.Person;
+import com.zl.happys.entity.Persion;
 import com.zl.happys.service.IPersonService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 //rizhi
 @Slf4j
 @Controller
-@RequestMapping(value = "person")
+@RequestMapping(value = "persion")
 public class PersonController {
 	
 	@Autowired
@@ -20,7 +20,7 @@ public class PersonController {
 	
 	@RequestMapping(value = "list")
 	public String queryList(Model model) {
-		List<Person> persons = personService.queryList();
+		List<Persion> persons = personService.queryList();
 		model.addAttribute("persons", persons);
 		log.info(persons.toString());
 		return "public/404";

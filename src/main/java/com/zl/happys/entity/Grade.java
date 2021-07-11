@@ -1,28 +1,37 @@
 package com.zl.happys.entity;
 
+
 public class Grade {
-    /**
-     * 班级id
-     */
-    private String gradeId;
-    /**
-     * 班级姓名
-     */
-    private String gradeName;
 
-    public String getGradeId() {
-        return gradeId;
-    }
+  private String gradeId;
+  private String gradeName;
+  private long version;
 
-    public void setGradeId(String gradeId) {
-        this.gradeId = gradeId;
-    }
 
-    public String getGradeName() {
-        return gradeName;
-    }
+  public String getGradeId() {
+    return gradeId;
+  }
 
-    public void setGradeName(String gradeName) {
-        this.gradeName = gradeName;
-    }
+  public void setGradeId(String gradeId) {
+    this.gradeId = gradeId;
+  }
+
+
+  public String getGradeName() {
+    return gradeName;
+  }
+
+  public void setGradeName(String gradeName) {
+    this.gradeName = gradeName;
+  }
+
+
+  public long getVersion() {
+    return version;
+  }
+
+  public void setVersion(long version) {
+    this.version = version;
+  }
+
 }

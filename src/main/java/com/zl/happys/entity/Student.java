@@ -1,103 +1,87 @@
 package com.zl.happys.entity;
 
-import java.util.Date;
 
 public class Student {
-    /**
-     * id
-     */
-    private String sId;
-    /**
-     * 学生登录名
-     */
-    private String userName;
-    /**
-     * 密码
-     */
-    private String password;
-    /**
-     * 学生姓名
-     */
-    private String sName;
 
-    /**
-     * 学生性别
-     */
-    private String sSex;
-    /**
-     * 学生身份证号
-     */
-    private String sIdCard;
-    /**
-     * 学生入学时间
-     */
-    private Date sRXSJ;
-    /**
-     * 学生班级
-     */
-    private String sClass;
+  private String sId;
+  private String userName;
+  private String password;
+  private String sName;
+  private String sSex;
+  private String sIdCard;
+  private java.sql.Date sRxsj;
+  private String sClass;
 
-    public String getsId() {
-        return sId;
-    }
 
-    public void setsId(String sId) {
-        this.sId = sId;
-    }
+  public String getSId() {
+    return sId;
+  }
 
-    public String getUserName() {
-        return userName;
-    }
+  public void setSId(String sId) {
+    this.sId = sId;
+  }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
-    public String getPassword() {
-        return password;
-    }
+  public String getUserName() {
+    return userName;
+  }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+  public void setUserName(String userName) {
+    this.userName = userName;
+  }
 
-    public String getsName() {
-        return sName;
-    }
 
-    public void setsName(String sName) {
-        this.sName = sName;
-    }
+  public String getPassword() {
+    return password;
+  }
 
-    public String getsSex() {
-        return sSex;
-    }
+  public void setPassword(String password) {
+    this.password = password;
+  }
 
-    public void setsSex(String sSex) {
-        this.sSex = sSex;
-    }
 
-    public String getsIdCard() {
-        return sIdCard;
-    }
+  public String getSName() {
+    return sName;
+  }
 
-    public void setsIdCard(String sIdCard) {
-        this.sIdCard = sIdCard;
-    }
+  public void setSName(String sName) {
+    this.sName = sName;
+  }
 
-    public Date getsRXSJ() {
-        return sRXSJ;
-    }
 
-    public void setsRXSJ(Date sRXSJ) {
-        this.sRXSJ = sRXSJ;
-    }
+  public String getSSex() {
+    return sSex;
+  }
 
-    public String getsClass() {
-        return sClass;
-    }
+  public void setSSex(String sSex) {
+    this.sSex = sSex;
+  }
 
-    public void setsClass(String sClass) {
-        this.sClass = sClass;
-    }
+
+  public String getSIdCard() {
+    return sIdCard;
+  }
+
+  public void setSIdCard(String sIdCard) {
+    this.sIdCard = sIdCard;
+  }
+
+
+  public java.sql.Date getSRxsj() {
+    return sRxsj;
+  }
+
+  public void setSRxsj(java.sql.Date sRxsj) {
+    this.sRxsj = sRxsj;
+  }
+
+
+  public String getSClass() {
+    return sClass;
+  }
+
+  public void setSClass(String sClass) {
+    this.sClass = sClass;
+  }
+
 }
