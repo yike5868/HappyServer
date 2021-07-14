@@ -1,6 +1,7 @@
 package com.zl.happys.controller;
 
 import com.zl.happys.entity.Classgrade;
+import com.zl.happys.entity.Classlesson;
 import com.zl.happys.entity.Classname;
 
 import java.util.List;
@@ -9,6 +10,8 @@ public class ResultModel<T>  {
 
     private List<Classgrade> classgradeList;
     private List<Classname> classnameList;
+
+    private List<Classlesson> classlessonList;
 
     public List<Classgrade> getClassgradeList() {
         return classgradeList;
@@ -26,5 +29,12 @@ public class ResultModel<T>  {
         this.classnameList = classnameList;
     }
 
+    public List<Classlesson> getClasslessonList() {
+        return classlessonList;
+    }
+
+    public void setClasslessonList(List<Classlesson> classlessonList) {
+        this.classlessonList = classlessonList;
+    }
 
 }

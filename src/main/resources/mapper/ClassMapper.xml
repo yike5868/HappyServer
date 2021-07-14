@@ -8,4 +8,7 @@
     <select id="listClassName" resultType="Classname" >
         SELECT * FROM classname
     </select>
+    <select id="listClassLesson" resultType="Classlesson" >
+        SELECT * FROM classlesson
+    </select>
 </mapper>

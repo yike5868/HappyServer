@@ -1,6 +1,7 @@
 package com.zl.happys.service.impl;
 
 import com.zl.happys.entity.Classgrade;
+import com.zl.happys.entity.Classlesson;
 import com.zl.happys.entity.Classname;
 import com.zl.happys.entity.Gradeclass;
 import com.zl.happys.mapper.ClassMapper;
@@ -22,5 +23,10 @@ public class ClassServiceImpl implements IClassService {
     @Override
     public List<Classname> listClassName() {
         return classMapper.listClassName();
+    }
+
+    @Override
+    public List<Classlesson> listClassLesson() {
+        return classMapper.listClassLesson();
     }
 }
